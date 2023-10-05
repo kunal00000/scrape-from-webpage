@@ -11,5 +11,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - run: echo starting...
       - run: pnpm ci
       - run: pnpm dev
+      - run: echo done.
