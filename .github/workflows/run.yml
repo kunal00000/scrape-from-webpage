@@ -12,6 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: echo starting...
-      - run: pnpm i
-      - run: pnpm dev
+      - run: npm i
+      - run: npm dev
       - run: echo done.
