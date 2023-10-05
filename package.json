@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc && node ./dist/index.js",
+    "dev": "esbuild --bundle src/index.ts --platform=node --outfile=dist/index.js && node ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "dotenv": "^16.3.1",
+    "esbuild": "^0.19.4",
     "typescript": "^5.2.2"
   },
   "dependencies": {
