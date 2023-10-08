@@ -6,5 +6,6 @@
 ### Tech Stack
 - [Puppeteer](https://pptr.dev/) - To scrape data from Algora
 - [Github REST API](https://docs.github.com/en/rest?apiVersion=2022-11-28) - To change readme of Contributions repository.
+- Github Actions - To trigger running of code after some interval regularly.
 - Typescript
 - Node js
