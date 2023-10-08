@@ -4,8 +4,8 @@
 - These contributions are converted to a ReadME template and added to [Contributions](https://github.com/kunal00000/Contributions) repository.
 
 ### Tech Stack
-- [Puppeteer](https://pptr.dev/) - To scrape data from Algora
-- [Github REST API](https://docs.github.com/en/rest?apiVersion=2022-11-28) - To change readme of Contributions repository.
-- Github Actions - To trigger running of code after some interval regularly.
-- Typescript
-- Node js
+1. [Puppeteer](https://pptr.dev/) - To scrape data from Algora
+2. [Github REST API](https://docs.github.com/en/rest?apiVersion=2022-11-28) - To change readme of Contributions repository.
+3. Github Actions - To trigger running of code after some interval regularly.
+4. Typescript
+5. Node js
