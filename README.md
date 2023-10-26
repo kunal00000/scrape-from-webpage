@@ -1,6 +1,6 @@
 # Scrape Contributions from Algora
 
-- This repo scrapes contributions from [Algora](https://console.algora.io/@/kunal00000)
+- This repo scrapes contributions from [Algora](https://console.algora.io/@/kunal00000) every 2 days.
 - These contributions are converted to a ReadME template and added to [Contributions](https://github.com/kunal00000/Contributions) repository.
 
 ### Tech Stack
