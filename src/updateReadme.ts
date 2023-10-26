@@ -18,12 +18,14 @@ export default async function updateReadme(newReadmeContent: string) {
   });
 
   // Update the README with the new content
-  await octokit.repos.createOrUpdateFileContents({
-    owner,
-    repo,
-    path: "README.md",
-    message: "Update README by scraped content",
-    content: Buffer.from(newReadmeContent).toString("base64"),
-    sha: currentReadme.sha
-  });
+  if(currentReadme !== newReadmeContent){
+    await octokit.repos.createOrUpdateFileContents({
+      owner,
+      repo,
+      path: "README.md",
+      message: "Update README by scraped content",
+      content: Buffer.from(newReadmeContent).toString("base64"),
+      sha: currentReadme.sha
+    });
+  }
 }
