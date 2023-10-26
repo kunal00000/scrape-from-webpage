@@ -18,7 +18,8 @@ export default async function updateReadme(newReadmeContent: string) {
   });
 
   // Update the README with the new content
-  if(currentReadme !== newReadmeContent){
+  console.log(currentReadme.content == newReadmeContent);
+  if(currentReadme.content !== newReadmeContent){
     await octokit.repos.createOrUpdateFileContents({
       owner,
       repo,
